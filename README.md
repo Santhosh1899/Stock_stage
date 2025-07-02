@@ -1,6 +1,6 @@
 **Stock Stage prediction**
 
-This project implements a comprehensive pipeline for unsupervised market stage prediction and trading signal generation using Deep Reinforcement Learning. It begins with an extensive set of technical indicators derived from stock market data. These include trend, momentum, volatility, volume, and price-based features such as RSI, MACD, Bollinger Bands, ADX, ATR, Stochastic Oscillator, OBV, ROC, MFI, CCI, and many more. The features are standardized and reduced in dimensionality using PCA. A custom OpenAI Gym environment simulates the trading process using a 5-action space (HOLD, BUY, EXIT_BUY, SHORT_SELL, EXIT_SELL). A Deep Q-Network (DQN) is trained across multiple stocks to learn optimal trading decisions based on state representations. The model outputs discrete market stages that are converted into actionable trading signals. The pipeline tracks trade-level profits and evaluates performance per stock using metrics like total return, average profit, and win rate. Additionally, annotated visualizations of trading stages and signals are generated, providing insights into the model’s effectiveness.
+This project implements a comprehensive pipeline for unsupervised market stage prediction and trading signal generation using Deep Reinforcement Learning. It begins with an extensive set of technical indicators derived from stock market data. These include trend, momentum, volatility, volume, and price-based features such as RSI, MACD, Bollinger Bands, ADX, ATR, Stochastic Oscillator, OBV, ROC, MFI, CCI, and many more. The features are standardized and reduced in dimensionality using PCA. A custom  Gym environment simulates the trading process using a 5-action space (HOLD, BUY, EXIT_BUY, SHORT_SELL, EXIT_SELL). A Deep Q-Network (DQN) is trained across multiple stocks to learn optimal trading decisions based on state representations. The model outputs discrete market stages that are converted into actionable trading signals. The pipeline tracks trade-level profits and evaluates performance per stock using metrics like total return, average profit, and win rate. Additionally, annotated visualizations of trading stages and signals are generated, providing insights into the model’s effectiveness.
 
 📌 Key Features & Highlights
 
@@ -42,6 +42,41 @@ Number of Trades per Stock
 
 
 
+![WhatsApp Image 2025-06-14 at 21 05 29](https://github.com/user-attachments/assets/5ec47053-ea92-4b39-a893-c289a0c53996)
+
+![WhatsApp Image 2025-06-14 at 21 00 53](https://github.com/user-attachments/assets/e4896001-88b9-431e-8c31-8443248cc21c)
+
+![WhatsApp Image 2025-06-14 at 21 01 06](https://github.com/user-attachments/assets/3b19017f-6ebd-48c1-8366-86bd5839e17a)
+
+![WhatsApp Image 2025-06-14 at 21 01 32](https://github.com/user-attachments/assets/7dac215b-58c8-48d4-9d0e-adbf4b0255f8)
+
+![WhatsApp Image 2025-06-14 at 21 01 45](https://github.com/user-attachments/assets/2d6898ab-bd3d-490f-ab82-b124b6506b9f)
+
+![WhatsApp Image 2025-06-14 at 21 02 03](https://github.com/user-attachments/assets/403d7c34-0705-4e07-897b-c75a6a9390b5)
+
+![WhatsApp Image 2025-06-14 at 21 02 32](https://github.com/user-attachments/assets/37d52d8d-6f5d-4e03-842e-0ba4f8f58319)
+
+![WhatsApp Image 2025-06-14 at 21 02 57](https://github.com/user-attachments/assets/0e236cf8-e612-4946-9565-9701b643879a)
+
+![WhatsApp Image 2025-06-14 at 21 03 30](https://github.com/user-attachments/assets/ef70a9b9-9ccd-4caf-a9bd-9b988f2dd1d8)
+
+![WhatsApp Image 2025-06-14 at 21 03 48](https://github.com/user-attachments/assets/46114df8-83bc-4ecd-a7d6-cdc8683a32e9)
+
+![WhatsApp Image 2025-06-14 at 21 04 00](https://github.com/user-attachments/assets/cb37d628-9271-4c6d-a3b8-d06bc58d61b2)
+
+![WhatsApp Image 2025-06-14 at 21 04 10](https://github.com/user-attachments/assets/241b9169-2a5c-4f87-bcd3-dec79ab8788c)
+
+![WhatsApp Image 2025-06-14 at 21 04 24](https://github.com/user-attachments/assets/a3159771-1407-4bea-b4dc-980527c1feeb)
+
+![WhatsApp Image 2025-06-14 at 21 04 40](https://github.com/user-attachments/assets/f63027b3-eb0d-47d9-801a-816760793a5e)
+
+![WhatsApp Image 2025-06-14 at 21 04 52](https://github.com/user-attachments/assets/e129889b-e8d9-4946-9603-08d7e263c454)
+
+![WhatsApp Image 2025-06-14 at 21 05 03](https://github.com/user-attachments/assets/ad9fad30-7acb-41d6-a819-0426d7b29bea)
+
+![WhatsApp Image 2025-06-14 at 21 05 15](https://github.com/user-attachments/assets/5847db7a-62d7-45e8-a80a-3f5f26b29848)
+
+![WhatsApp Image 2025-06-14 at 21 05 44](https://github.com/user-attachments/assets/cd79f936-e217-4aa0-8afd-affe4b145d17)
 
 ![image](https://github.com/user-attachments/assets/c6965bf8-44a3-4c2e-a875-45f2d48ddfe7)
 
