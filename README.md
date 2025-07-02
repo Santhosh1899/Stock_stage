@@ -1,36 +1,40 @@
-Stock Stage prediction
+**Stock Stage prediction**
 
-This project focuses on predicting market stages and generating trading signals using a combination of data preprocessing, custom reinforcement learning environments,
-and Deep Q-Networks (DQN). It begins with technical and engineered stock features, which are standardized and reduced using PCA for dimensionality reduction. 
-A custom OpenAI Gym environment simulates trading actions based on rewards derived from price movements. A DQN is then trained across multiple stocks to learn optimal 
-buy/sell/hold strategies. The model outputs discrete actions which are mapped to real-world trading signals (BUY, SELL, HOLD, etc.). Profits and losses are tracked for
-every entry and exit, enabling a detailed performance evaluation. Finally, the pipeline generates annotated plots for each stock and stores a CSV summarizing trade 
-performance metrics like average profit, win rate, and total return.
+This project implements a comprehensive pipeline for unsupervised market stage prediction and trading signal generation using Deep Reinforcement Learning. It begins with an extensive set of technical indicators derived from stock market data. These include trend, momentum, volatility, volume, and price-based features such as RSI, MACD, Bollinger Bands, ADX, ATR, Stochastic Oscillator, OBV, ROC, MFI, CCI, and many more. The features are standardized and reduced in dimensionality using PCA. A custom OpenAI Gym environment simulates the trading process using a 5-action space (HOLD, BUY, EXIT_BUY, SHORT_SELL, EXIT_SELL). A Deep Q-Network (DQN) is trained across multiple stocks to learn optimal trading decisions based on state representations. The model outputs discrete market stages that are converted into actionable trading signals. The pipeline tracks trade-level profits and evaluates performance per stock using metrics like total return, average profit, and win rate. Additionally, annotated visualizations of trading stages and signals are generated, providing insights into the model’s effectiveness.
 
-📌 Key Highlights (Bullet Points)
+📌 Key Features & Highlights
+🔍 Technical Indicators Used:
 
-🔄 Data Processing: Applies StandardScaler and PCA on engineered stock market features.
+Trend: EMA (short/medium/long), ADX, AROON, HT TrendMode
 
-🧠 Custom Gym Environment: Simulates trading with 5 discrete actions, including long and short trades.
+Momentum: RSI, MACD Histogram, ROC (1–20), CCI, Ultimate Oscillator, Stochastic Oscillator
 
-🤖 Reinforcement Learning: Trains a Deep Q-Network (DQN) model to predict optimal trading actions.
+Volatility: Bollinger Bands, ATR, Keltner Channels, Standard Deviation
 
-💡 Signal Generation: Converts predicted stages into BUY, EXIT_BUY, SHORT_SELL, EXIT_SELL, and HOLD signals.
+Volume-based: OBV, OBV Change, VPT, CMF, Relative Volume
 
-📈 Profit Calculation: Tracks percentage profit or loss for every completed trade.
+Price action: AVWAP, Fib Levels, Pivot High/Low, SAR, Price Spread
 
-📊 Performance Metrics:
+Advanced stats: Divergence indicators, HT Sine/Cycle/Phase, Relative Price Position, Market Stage Label
 
-Total profit per stock
+🧠 Model: Deep Q-Network (DQN) with experience replay, trained across multiple stock environments.
 
-Average profit per BUY/SHORT trade
+🏗️ Custom Gym Environment: Simulates market trading with rewards tied to price movements and actions.
 
-Win rate for BUY/SHORT signals
+💡 Signal Mapping: Translates predicted market stages into real-world actions: BUY, SHORT, EXIT, HOLD.
 
-Number of trades executed
+📈 Performance Metrics:
 
-📉 Visualization: Annotated plots with signals and profit markers overlayed on price charts.
+Total Profit %
 
-💾 Model Saving: Scaler, PCA, and model state are saved using joblib for reuse.
+Average Profit per BUY/SHORT
 
-📁 Evaluation Output: CSV file (model_performance_by_stock.csv) summarizing all results per stock.
+Win Rate for BUY and SHORT
+
+Number of Trades per Stock
+
+📉 Visualizations: Price charts overlaid with predicted stages, trade signals, and annotated profits.
+
+💾 Model Saving: Scaler, PCA model, and trained policy are serialized with joblib.
+
+📊 Evaluation Output: model_performance_by_stock.csv contains summary metrics for each stock evaluated.
