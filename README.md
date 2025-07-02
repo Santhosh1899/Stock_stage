@@ -43,7 +43,15 @@ Number of Trades per Stock
 
 ![image](https://github.com/user-attachments/assets/c6965bf8-44a3-4c2e-a875-45f2d48ddfe7)
 
+The stock stage prediction model demonstrated strong performance across a wide range of stocks, particularly in generating profitable BUY signals. Notably, ADANIPORTS, AUROPHARMA, ABB, and ADANIENT stood out with total profit percentages exceeding 90%, with ADANIPORTS achieving the highest overall return of 107.83%. This was driven by a balanced contribution from both BUY and SHORT trades, highlighting the model’s adaptability in both bullish and bearish conditions.
 
+In terms of average profit per BUY trade, ABB, ADANIENT, ABFRL, and AARTIIND reported impressive values, often exceeding 2.5% per trade, indicating the model's ability to enter trades with strong reward potential. Similarly, ALKEM, ASTRAL, and ADANIPORTS also produced significant average profits on SHORT trades, showing the model's capability to capture downside movements effectively when conditions were favorable.
+
+The model also achieved high win rates for BUY trades, with several stocks like ABCAPITAL, APOLLOTYRE, APOLLOHOSP, and AUROPHARMA recording success rates of over 75%, reflecting consistent accuracy in timing long entries and exits. SHORT trade win rates were slightly lower and more variable, with AUROPHARMA achieving the highest at 83.33%, followed by ALKEM and ADANIPORTS, both above 70%.
+
+However, some stocks such as ATUL, APOLLOHOSP, and APOLLOTYRE experienced negative or marginal returns from SHORT trades, indicating the model occasionally misjudged bearish momentum. These cases suggest room for improvement, potentially through enhanced reward design, more balanced training data, or strategy constraints that better reflect real-world short selling risks.
+
+In summary, the model is highly effective in generating BUY signals with strong profitability and reliability, while SHORT strategies show promise but may require further refinement. The approach proves scalable across multiple stocks, offering a solid foundation for AI-driven trading systems.
 
 
 
