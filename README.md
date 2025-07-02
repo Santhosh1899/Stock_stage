@@ -1,3 +1,5 @@
+Stock Stage prediction
+
 This project focuses on predicting market stages and generating trading signals using a combination of data preprocessing, custom reinforcement learning environments,
 and Deep Q-Networks (DQN). It begins with technical and engineered stock features, which are standardized and reduced using PCA for dimensionality reduction. 
 A custom OpenAI Gym environment simulates trading actions based on rewards derived from price movements. A DQN is then trained across multiple stocks to learn optimal 
