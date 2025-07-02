@@ -41,7 +41,10 @@ Number of Trades per Stock
 📊 Evaluation Output: model_performance_by_stock.csv contains summary metrics for each stock evaluated.
 
 
+
+
 ![image](https://github.com/user-attachments/assets/c6965bf8-44a3-4c2e-a875-45f2d48ddfe7)
+
 
 The stock stage prediction model demonstrated strong performance across a wide range of stocks, particularly in generating profitable BUY signals. Notably, ADANIPORTS, AUROPHARMA, ABB, and ADANIENT stood out with total profit percentages exceeding 90%, with ADANIPORTS achieving the highest overall return of 107.83%. This was driven by a balanced contribution from both BUY and SHORT trades, highlighting the model’s adaptability in both bullish and bearish conditions.
 
