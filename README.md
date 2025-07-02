@@ -1,4 +1,4 @@
-**Stock Stage prediction**
+##**Stock Stage prediction**
 
 This project implements a comprehensive pipeline for unsupervised market stage prediction and trading signal generation using **Deep Reinforcement Learning**. It begins with an extensive set of technical indicators derived from stock market data. These include trend, momentum, volatility, volume, and price-based features such as RSI, MACD, Bollinger Bands, ADX, ATR, Stochastic Oscillator, OBV, ROC, MFI, CCI, and many more. The features are standardized and reduced in dimensionality using PCA. A custom  Gym environment simulates the trading process using a 5-action space (HOLD, BUY, EXIT_BUY, SHORT_SELL, EXIT_SELL). A Deep Q-Network (DQN) is trained across multiple stocks to learn optimal trading decisions based on state representations. The model outputs discrete market stages that are converted into actionable trading signals. The pipeline tracks trade-level profits and evaluates performance per stock using metrics like total return, average profit, and win rate. Additionally, annotated visualizations of trading stages and signals are generated, providing insights into the model’s effectiveness.
 
@@ -79,7 +79,7 @@ Number of Trades per Stock
 ![WhatsApp Image 2025-06-14 at 21 05 44](https://github.com/user-attachments/assets/cd79f936-e217-4aa0-8afd-affe4b145d17)
 
 
-**Trading summary from 2024 to 2025**
+###**Trading summary from 2024 to 2025**
 
 ![image](https://github.com/user-attachments/assets/c6965bf8-44a3-4c2e-a875-45f2d48ddfe7)
 
