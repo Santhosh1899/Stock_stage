@@ -8,6 +8,7 @@ every entry and exit, enabling a detailed performance evaluation. Finally, the p
 performance metrics like average profit, win rate, and total return.
 
 📌 Key Highlights (Bullet Points)
+
 🔄 Data Processing: Applies StandardScaler and PCA on engineered stock market features.
 
 🧠 Custom Gym Environment: Simulates trading with 5 discrete actions, including long and short trades.
