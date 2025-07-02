@@ -74,10 +74,6 @@ Number of Trades per Stock
 
 ![WhatsApp Image 2025-06-14 at 21 05 03](https://github.com/user-attachments/assets/ad9fad30-7acb-41d6-a819-0426d7b29bea)
 
-![WhatsApp Image 2025-06-14 at 21 05 15](https://github.com/user-attachments/assets/5847db7a-62d7-45e8-a80a-3f5f26b29848)
-
-![WhatsApp Image 2025-06-14 at 21 05 44](https://github.com/user-attachments/assets/cd79f936-e217-4aa0-8afd-affe4b145d17)
-
 
 ###  **Trading summary from 2024 to 2025**
 
